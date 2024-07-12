@@ -150,3 +150,60 @@ gap: 24px;
 .skill-description{
 
 }
+.resume-container{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 70px;
+}
+.resume-column{
+    max-width: 528px;
+   
+}
+
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+.experience-title{
+    font-size: 26px;
+    color: #474747;
+}
+.resume-column-title{
+    font-size: 30px;
+    color: #474747;
+}
+.experience-sub-title {
+    font-size: 20px;
+    font-weight:400;
+    color: #757575;
+}
+.final-btn{
+    background-color:#FD6E0A;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px 19px;
+    border: none;
+ margin-left: 38%;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"] , footer input[type="email"] ,footer textarea
+{
+height: 64px;
+border-radius: 5px;
+background-color: rgb(236, 238, 243);
+/* color: #aba6a6; */
+display: block;
+width: 100%;
+margin-bottom: 24px;
+border: none;
+}

@@ -235,6 +235,23 @@ border: none;
         display: flex;
         flex-direction: column;
      }
+     .banner{
+        display: flex;
+        flex-direction: column-reverse;
+     }
+     .header{
+        background-color: white;
+     }
+     .banner-profile-pic{
+        width: 100%;
+     }
+     nav{
+        display: flex;
+        flex-direction: column;
+     }
+     nav>ul{
+        margin-left: 105px;
+     }
 }
 /* @media screen and (max-width:576px){
 .secondary-bg{
